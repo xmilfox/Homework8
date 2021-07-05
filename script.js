@@ -62,10 +62,13 @@ function checkEmail (email){
     
 }
 
-checkEmail("Random@gmail.com");
-checkEmail("Ran-dom-@gmail.com");
-checkEmail("_Random@gmail.com");
-checkEmail("Random@gmail.com.");
+
+checkEmail('my_mail@gmail.com');
+
+checkEmail('#my_mail@gmail.com');
+
+checkEmail('my_ma--il@gmail.com');
+
 
 // завдання 7
 
